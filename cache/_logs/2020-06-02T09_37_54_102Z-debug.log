@@ -1,0 +1,47 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'D:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'D:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish'
+1 verbose cli ]
+2 info using npm@6.11.3
+3 info using node@v12.11.1
+4 verbose npm-session c3ed69d0cd7acf25
+5 verbose publish [ '.' ]
+6 info lifecycle @kgshino/subapp-controller@0.0.1~prepublish: @kgshino/subapp-controller@0.0.1
+7 info lifecycle @kgshino/subapp-controller@0.0.1~prepare: @kgshino/subapp-controller@0.0.1
+8 info lifecycle @kgshino/subapp-controller@0.0.1~prepublishOnly: @kgshino/subapp-controller@0.0.1
+9 info lifecycle @kgshino/subapp-controller@0.0.1~prepack: @kgshino/subapp-controller@0.0.1
+10 info lifecycle @kgshino/subapp-controller@0.0.1~postpack: @kgshino/subapp-controller@0.0.1
+11 notice
+12 notice package: @kgshino/subapp-controller@0.0.1
+13 notice === Tarball Contents ===
+14 notice 1.4kB index.js
+14 notice 418B  package.json
+14 notice 104B  tsconfig.json
+14 notice 672B  README.md
+14 notice 391B  index.d.ts
+14 notice 911B  index.ts
+15 notice === Tarball Details ===
+16 notice name:          @kgshino/subapp-controller
+16 notice version:       0.0.1
+16 notice package size:  1.6 kB
+16 notice unpacked size: 3.9 kB
+16 notice shasum:        14bbe16d04868b3456ea85bd26a1c1284a2249cd
+16 notice integrity:     sha512-7GNeDsV7zJn5t[...]k8nPOWctNkXqA==
+16 notice total files:   6
+17 notice
+18 http fetch PUT 402 https://registry.npmjs.org/@kgshino%2fsubapp-controller 518ms
+19 verbose stack Error: 402 Payment Required - PUT https://registry.npmjs.org/@kgshino%2fsubapp-controller - You must sign up for private packages
+19 verbose stack     at D:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-fetch\check-response.js:104:15
+19 verbose stack     at processTicksAndRejections (internal/process/task_queues.js:93:5)
+20 verbose statusCode 402
+21 verbose pkgid @kgshino/subapp-controller@0.0.1
+22 verbose cwd D:\dev\kg-site-subapp\subapp-controller
+23 verbose Windows_NT 10.0.18362
+24 verbose argv "D:\\Program Files\\nodejs\\node.exe" "D:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+25 verbose node v12.11.1
+26 verbose npm  v6.11.3
+27 error code E402
+28 error 402 Payment Required - PUT https://registry.npmjs.org/@kgshino%2fsubapp-controller - You must sign up for private packages
+29 verbose exit [ 1, true ]

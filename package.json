@@ -1,0 +1,17 @@
+{
+  "name": "kg-site-subapp-controller",
+  "version": "0.0.3",
+  "description": "KG-site sub-app lifecycle controller base on document event",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kagashino",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.9.3"
+  }
+}
