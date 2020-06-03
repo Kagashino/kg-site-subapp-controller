@@ -11,6 +11,8 @@
 # production
 index.js
 
+cache
+
 # misc
 .DS_Store
 .env.local
