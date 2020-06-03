@@ -9,7 +9,7 @@ KG-site sub-app lifecycle controller based on document event.
 ```typescript jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { bootstrap } from '@kgshino/subapp-controller';
+import { bootstrap } from 'kg-site-subapp-controller';
 import App from './src/App';
 
 bootstrap('my-app', {
